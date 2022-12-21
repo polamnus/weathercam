@@ -6,9 +6,6 @@
 	Requires: ImageMagic utility bundle's identify.exe and ffmpeg.exe
 #>
 
-AKIA2E7CXHIJAMEI6I6Z
-uAlC51g+KfUO3ewnmGjZ4RiH0D3PmcpKH4UuRxqh
-
 #path to ffmpeg
 $ffmpeg = "ffmpeg.exe"
 
