@@ -3,9 +3,7 @@
 	Email: ajm15@cornell.edu
 	This script interacts with two cameras. The first is an HK-Vision and the second is an Amcrest. They require different API calls to obtain the still-frame snapshot.
 #>
-#Don't Forget These!
-AKIA2E7CXHIJBXQJCI57
-TLED36OQjhkdM0ZtuLICPojV7O7iBj3Ui0fTDWwg
+
 #Define the still frame snapshot files and URLs to obtain them
 $LocalFile1 = 'C:\temp\camera01_snap.jpg'
 $LocalFile2 = 'C:\temp\camera02_snap.jpg'
