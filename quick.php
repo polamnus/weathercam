@@ -1,4 +1,4 @@
 <?php
-// Return the listing of the directory where the file runs (Linux)
-system("ls -la");
+// Executes, returns the entire output as a string
+echo shell_exec("ls -la");
 ?>
