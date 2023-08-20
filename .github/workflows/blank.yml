@@ -23,7 +23,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: write-host $env
+        run: gci env:* | sort-object name
         shell: pwsh
 
       # Runs a set of commands using the runners shell
